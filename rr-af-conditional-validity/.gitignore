@@ -1,0 +1,24 @@
+# data and model artefacts: regenerate these, do not commit them
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.csv
+figs/
+data/
+outputs/
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
